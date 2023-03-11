@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vegan Chocolate Cake Recipe</title>
+    <script>
+      function updateRecipe() {
+        // Get the number of servings entered by the user
+        var servings = parseInt(document.getElementById("servings").value);
+        
+        // Get the ingredient list and loop through each item
+        var ingredients = document.querySelectorAll(".recipe-ingredient");
+        for (var i = 0; i < ingredients.length; i++) {
+          var ingredient = ingredients[i];
+          
+          // Get the original quantity and unit of the ingredient
+          var originalQty = ingredient.getAttribute("data-qty");
+          var originalUnit = ingredient.getAttribute("data-unit");
+          
+          // Calculate the new quantity based on the number of servings
+          var newQty = originalQty * servings;
+          
+          // Update the ingredient text with the new quantity and unit
+          ingredient.textContent = newQty + " " + originalUnit;
+        }
+        
+        // Update the servings text in the recipe instructions
+        document.querySelector(".recipe-servings").textContent = servings;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Vegan Chocolate Cake Recipe</h1>
+    
+    <div>
+      <label for="servings">Servings:</label>
+      <input type="number" id="servings" value="4" min="1" max="12" onchange="updateRecipe()">
+    </div>
+    
+    <div class="recipe">
+      <h2>Ingredients</h2>
+      <ul>
+        <li class="recipe-ingredient" data-qty="2" data-unit="cups">All-purpose flour</li>
+        <li class="recipe-ingredient" data-qty="1 3/4" data-unit="cups">Granulated sugar</li>
+        <li class="recipe-ingredient" data-qty="3/4" data-unit="cup">Unsweetened cocoa powder</li>
+        <li class="recipe-ingredient" data-qty="2" data-unit="teaspoons">Baking powder</li>
+        <li class="recipe-ingredient" data-qty="1/2" data-unit="teaspoon">Baking soda</li>
+        <li class="recipe-ingredient" data-qty="1/2" data-unit="teaspoon">Salt</li>
+        <li class="recipe-ingredient" data-qty="1" data-unit="cup">Almond milk</li>
+        <li class="recipe-ingredient" data-qty="1/2" data-unit="cup">Vegetable oil</li>
+        <li class="recipe-ingredient" data-qty="2" data-unit="teaspoons">Vanilla extract</li>
+        <li class="recipe-ingredient" data-qty="1" data-unit="cup">Hot water</li>
+      </ul>
+      
+      <h2>Instructions</h2>
+      <ol>
+        <li>Preheat the oven to 350°F (175°C).</li>
+        <li>In a large bowl, whisk together the flour, sugar, cocoa powder, baking powder, baking soda, and salt.</li>
+        <li>In a separate bowl, whisk together the almond milk, vegetable oil, and vanilla extract.</li>
+        <li>Pour the wet ingredients into the dry ingredients and stir until well combined.</li>
+        <li>Add the
