@@ -18,10 +18,12 @@
     </header>
     
     <main>
-      <h2>Welcome to Free Vegan Recipes!</h2>
-      <p>Here, you'll find a wide variety of delicious vegan recipes that are free for everyone to enjoy.</p>
-      <p>Whether you're a long-time vegan or just starting to explore plant-based eating, we've got something for everyone.</p>
-      <p>Check out our <a href="#">recipes</a> page to get started, or learn more about us on our <a href="#">about</a> page.</p>
+      <h2>Recipes</h2>
+      <ul>
+        {% for recipe in site.recipes %}
+        <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+        {% endfor %}
+      </ul>
     </main>
     
     <footer>
