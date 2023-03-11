@@ -1,33 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Vegan Recipes</title>
-  </head>
-  <body>
-    <header>
-      <h1>Free Vegan Recipes</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <h2>Recipes</h2>
-      <ul>
-        {% for recipe in site.recipes %}
-        <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </main>
-    
-    <footer>
-      <p>&copy; 2023 Free Vegan Recipes</p>
-    </footer>
-  </body>
-</html>
+---
+layout: default
+title: Free Vegan Recipes
+---
+
+<h1>Welcome to Free Vegan Recipes!</h1>
+
+<ul>
+  {% for recipe in site.recipes %}
+    <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+  {% endfor %}
+</ul>
