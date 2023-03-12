@@ -1,1 +1,9 @@
 
+# Specify that your site should be built with Jekyll
+# This line is required to enable Jekyll on GitHub Pages
+markdown: kramdown
+
+# Specify the Jekyll theme you want to use (optional)
+theme: jekyll-theme-minimal
+
+# Specify any other Jekyll configuration options you want to use (optional)
