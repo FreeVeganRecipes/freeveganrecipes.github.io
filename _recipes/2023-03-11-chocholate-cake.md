@@ -1,45 +1,36 @@
 ---
-creator: John Doe
-title: Vegan Lentil Soup
-date: 2022-02-15
+title: Vegan Chocolate Chip Cookies
+date: 2023-03-11
+author: Jane Doe
+difficulty: Easy
 ---
 
-# Vegan Lentil Soup
+# Vegan Chocolate Chip Cookies
 
-This is a delicious and easy-to-make vegan lentil soup that's perfect for a cold winter day.
+These vegan chocolate chip cookies are a classic treat that everyone will love!
 
 ## Ingredients
 
-- 1 tablespoon olive oil
-- 1 onion, diced
-- 2 cloves garlic, minced
-- 2 carrots, diced
-- 2 celery stalks, diced
-- 1 cup dried lentils, rinsed and drained
-- 4 cups vegetable broth
-- 1 teaspoon dried thyme
-- 1 bay leaf
-- Salt and pepper, to taste
-- Fresh parsley, chopped, for garnish
+- 2 cups all-purpose flour
+- 1 teaspoon baking powder
+- 1/2 teaspoon baking soda
+- 1/2 teaspoon salt
+- 1/2 cup vegan butter, softened
+- 1/2 cup granulated sugar
+- 1/2 cup brown sugar
+- 1/4 cup unsweetened applesauce
+- 1 teaspoon vanilla extract
+- 1 1/2 cups vegan chocolate chips
 
 ## Instructions
 
-1. In a large pot or Dutch oven, heat the olive oil over medium heat. Add the onion and garlic and sauté until softened, about 5 minutes.
+1. Preheat the oven to 350°F (175°C). Line a baking sheet with parchment paper.
+2. In a medium bowl, whisk together the flour, baking powder, baking soda, and salt.
+3. In a large bowl, cream together the vegan butter, granulated sugar, and brown sugar until light and fluffy. Add the applesauce and vanilla extract and mix well.
+4. Add the flour mixture to the butter mixture and mix until just combined.
+5. Stir in the vegan chocolate chips.
+6. Drop the dough by spoonfuls onto the prepared baking sheet.
+7. Bake for 10-12 minutes, or until the edges are lightly browned.
+8. Allow the cookies to cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.
 
-2. Add the carrots and celery and continue to sauté for another 5 minutes, until the vegetables are tender.
-
-3. Add the lentils, vegetable broth, thyme, bay leaf, salt, and pepper. Stir to combine.
-
-4. Bring the soup to a boil, then reduce the heat to low and let it simmer for 30-40 minutes, until the lentils are tender.
-
-5. Remove the bay leaf and discard it. Ladle the soup into bowls and garnish with fresh parsley.
-
-Enjoy!
-
-Makes 4-6 servings.
-In this example, the creator is "John Doe", the title is "Vegan Lentil Soup", and the date is "2022-02-15". These are included in the YAML front matter at the beginning of the file, which is surrounded by --- delimiters. The rest of the file contains the recipe content, including ingredients and instructions.
-
-
-
-
-
+Enjoy your delicious vegan chocolate chip cookies!
